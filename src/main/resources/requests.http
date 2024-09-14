@@ -1,0 +1,28 @@
+GET http://localhost:8080/api/v1/cars
+
+###
+GET http://localhost:8080/api/v1/cars/1
+
+###
+POST http://localhost:8080/api/v1/cars
+Content-Type: application/json
+
+{
+  "model": "Toyota",
+  "year": 1999,
+  "carClass": "VM",
+  "modelCode": "21"
+}
+
+###
+PATCH http://localhost:8080/api/v1/cars/1
+Content-Type: application/json
+
+{
+  "carClass": "C"
+}
+
+###
+DELETE http://localhost:8080/api/v1/cars/4
+
+
