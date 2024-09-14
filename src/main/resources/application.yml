@@ -4,3 +4,6 @@ server:
 spring:
   application:
     name: car-service
+
+frontend:
+  url: http://localhost:3000
